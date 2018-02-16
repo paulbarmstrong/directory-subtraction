@@ -6,6 +6,10 @@
 * Date: March 2017 (but updated and uploaded more recently)
 * Progress: 100%
 
+## Demonstration
+
+![animated gif](https://i.imgur.com/Ul7StOs.gif)
+
 ## Description
 
 This little script will "subtract" one directory from the other. What I mean by this is any files found in both directories will be deleted from the target directory. Folders found in both directories will only be deleted if there were no other common files in that folder.
