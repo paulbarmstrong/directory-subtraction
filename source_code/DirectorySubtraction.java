@@ -59,7 +59,6 @@ public class DirectorySubtraction
 			ArrayList<File> deleteList = new ArrayList<File>();
 			String referencePath = fixFileString(referenceFolder.getAbsolutePath());
 			String targetPath = fixFileString(targetFolder.getAbsolutePath());
-			System.out.println(referencePath);
 			for (File file : referenceFiles)
 			{
 				File coFile = new File(fixFileString(file.getAbsolutePath())
