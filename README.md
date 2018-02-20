@@ -18,7 +18,7 @@ This little script will "subtract" one directory from the other. What I mean by 
 
 The script prompts the user for a directory to "blacklist" and a directory to remove blacklisted files from. Blacklisted files also found in the second directory will be marked for deletion. A warning prompt will display the full paths of the first ten on the deletion list and provide the total number of files to be deleted. If the user confirms, the files will be deleted.
 
-Even though I personally use this script and have no problems, any script which involves deleting directories has the potential for disaster. Because of this, I have decided not to include an executable of the script.
+Even though I personally use this script and have no problems, any script which involves deleting directories has the potential for disaster. Because of this, I have decided not to include an executable release of this script.
 
 There are two main reasons why the script *SHOULD* be safe:
 * The script can only mark for deletion files common to both directories (And they can't both be the same directory)
